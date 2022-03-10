@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreenbackgrnd"
+    tools:context=".CustomerWelcomePageActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="402dp"
+        android:layout_height="241dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnPetrol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="296dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="34dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginRight="53dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/mainscreenlogo" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPetrol"
+        android:layout_width="164dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="20dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttons"
+        android:text="Petrol"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#071732"
+        app:layout_constraintBottom_toTopOf="@+id/btnDenter"
+        app:layout_constraintEnd_toStartOf="@+id/btnMechanic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:rippleColor="#F5F8F1" />
+
+    <Button
+        android:id="@+id/btnMechanic"
+        android:layout_width="164dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="37dp"
+
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/buttons"
+        android:text="Mechanics"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#071732"
+        app:layout_constraintBottom_toTopOf="@+id/btnElectrician"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnPetrol"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:rippleColor="#F5F8F1" />
+
+    <Button
+        android:id="@+id/btnElectrician"
+        android:layout_width="164dp"
+        android:layout_height="163dp"
+
+        android:layout_marginStart="16dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttons"
+        android:text="Car Electrician"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#071732"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnDenter"
+        app:layout_constraintTop_toBottomOf="@+id/btnMechanic"
+        app:rippleColor="#F5F8F1" />
+
+    <Button
+        android:id="@+id/btnDenter"
+        android:layout_width="164dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="30dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/buttons"
+        android:text="Denter"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="#071732"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnElectrician"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPetrol"
+        app:rippleColor="#F5F8F1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

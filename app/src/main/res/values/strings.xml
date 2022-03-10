@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_provider_maps">ProviderMapsActivity</string>
+    <string name="title_activity_consumer_maps">ConsumerMapsActivity</string>
+    <string name="title_activity_provider1_maps">Provider1MapsActivity</string>
+    <string name="title_activity_consumer1_maps">Consumer1MapsActivity</string>
+    <string name="title_activity_provider_custom_location_maps">ProviderCustomLocationMapsActivity
+    </string>
+</resources>

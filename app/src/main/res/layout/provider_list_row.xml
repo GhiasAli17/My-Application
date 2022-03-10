@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/provider_list_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<!--    below -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        app:cardBackgroundColor="@color/material_on_primary_disabled"
+        app:cardCornerRadius="30dp"
+
+        app:cardMaxElevation="20dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="282dp">
+
+
+            <Button
+                android:id="@+id/sms"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="41dp"
+                android:background="@drawable/buttons"
+                android:text="SMS"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#071732"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/sendrequest"
+                app:layout_constraintStart_toEndOf="@+id/call"
+                app:layout_constraintTop_toBottomOf="@+id/SPphoneValue" />
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="41dp"
+                android:background="@drawable/buttons"
+                android:text="Call"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#071732"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/sms"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SPphone" />
+
+            <Button
+                android:id="@+id/sendrequest"
+
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="41dp"
+                android:background="@drawable/buttons"
+                android:text="Request"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:backgroundTint="#071732"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/sms"
+                app:layout_constraintTop_toBottomOf="@+id/SPphoneValue" />
+
+            <TextView
+                android:id="@+id/SPratingValue"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginEnd="23dp"
+                android:text="Rating :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SPrating"
+                app:layout_constraintTop_toBottomOf="@+id/SPdistanceValue" />
+
+            <TextView
+                android:id="@+id/SPdistanceValue"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginEnd="23dp"
+                android:text="Distance  :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SPdistance"
+                app:layout_constraintTop_toBottomOf="@+id/SPnameValue" />
+
+            <TextView
+                android:id="@+id/SPphoneValue"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginEnd="23dp"
+                android:text="Phone  :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SPphone"
+                app:layout_constraintTop_toBottomOf="@+id/SPratingValue" />
+
+            <TextView
+                android:id="@+id/SPdistance"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="1dp"
+                android:text="Distance  :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/SPdistanceValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SPname" />
+
+            <TextView
+                android:id="@+id/SPname"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="1dp"
+                android:text="Name :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/SPnameValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SPnameValue"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="23dp"
+                android:text="Name :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/SPname"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/SPrating"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="1dp"
+                android:layout_marginBottom="16dp"
+                android:text="Rating :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/SPphone"
+                app:layout_constraintEnd_toStartOf="@+id/SPratingValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SPdistance" />
+
+            <TextView
+                android:id="@+id/SPphone"
+                android:layout_width="146dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginEnd="1dp"
+                android:text="Phone  :"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toStartOf="@+id/SPphoneValue"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/SPrating" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <!--    upto this-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.024">-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtPhone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text=""-->
+<!--            android:hint="phone"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtRating"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtPid"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/txtDistance"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="TextView" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnSend"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="send" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnCall"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Call" />-->
+
+
+<!--    </LinearLayout>-->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

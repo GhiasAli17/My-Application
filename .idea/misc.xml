@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/drawable-v24/ic_wave__5_.xml" value="0.20102564102564102" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_consumer1_maps.xml" value="0.18697916666666667" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_consumer_login_register.xml" value="0.19010416666666666" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_consumer_maps.xml" value="0.15" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_consumer_pending_list.xml" value="0.10989583333333333" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_consumer_register.xml" value="0.15104166666666666" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_customer_welcome_page.xml" value="0.22" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider1_maps.xml" value="0.1" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider_custom_location_maps.xml" value="0.1875" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider_list.xml" value="0.109375" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider_login_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider_maps.xml" value="0.17" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_provider_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_rating.xml" value="0.14375" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/activity_welcome.xml" value="0.22" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/custom_dialog.xml" value="0.18854166666666666" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/layout_row.xml" value="0.18" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/layout/provider_list_row.xml" value="0.18" />
+        <entry key="..\:/8th semester/FYP-II/SmartServiceApp/app/src/main/res/menu/menu.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
